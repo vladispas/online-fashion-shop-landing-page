@@ -1,0 +1,38 @@
+.shop__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 8.75rem;
+}
+
+.shop__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shop__navbar-links_main h1 {
+    font-family: var(--font-new);
+    font-weight: lighter;
+    font-size: 50px;
+    line-height: 53px;
+    color: var(--color-dark-brown);
+
+    cursor: pointer;
+}
+
+.shop__navbar-links_container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.shop__navbar-links_container p {
+    font-family: var(--font-main);
+    font-size: 30px;
+    line-height: 42px;
+    margin: 0 4.688rem;
+
+    cursor: pointer;
+}
